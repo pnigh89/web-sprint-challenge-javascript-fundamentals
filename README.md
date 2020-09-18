@@ -27,13 +27,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+forEach returns undefined; map returns an array. forEach mutates, maps is immutable. So use map when wanting to change data and forEach when you want it to remain the same.
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher order function takes another function as an argument. A callback function is one of those functions a higher order function might take as an argument.
 
 3. What is closure?
 
+Closure refers to the the lexical environment a nested function is embedded within and how it can reach out to outer functions scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+1. With no other reference, this refers to the global scope. 2. This always refers to the preceding object its referencing (implicit binding). 3. When constructor functions are built this refers to this specific object (not the parent). 4. Can overried the implicit binding with explicit binding, using the .call and .apply methods.
+
 5. Why do we need super() in an extended class?
+
+Super extends the parent objects into the child.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
